@@ -5,7 +5,16 @@
 
 //console.log(apikey);
 //console.log(content);
-let userMessage = "Hello world!";
 
-console.log(userMessage);
-console.log(userMessage);
+//let userMessage = "Hello world!";
+
+//console.log(userMessage);
+//console.log(userMessage);
+
+function greetUser(userName, message) {
+    console.log(userName);
+    console.log(message);
+}
+
+greetUser("Max", "Hello");
+greetUser("Maxine", "Hello, what's up!");
