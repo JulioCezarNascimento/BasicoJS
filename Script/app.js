@@ -11,10 +11,14 @@
 //console.log(userMessage);
 //console.log(userMessage);
 
-function greetUser(userName, message) {
-    console.log(userName);
-    console.log(message);
+function createGreeting(userName, message) {
+    //console.log(userName);
+    //console.log(message);
+    return "Hi, I'm " + userName + "." + message;
 }
 
-greetUser("Max", "Hello");
-greetUser("Maxine", "Hello, what's up!");
+const greeting1 = createGreeting("Michel");
+console.log(greeting1);
+
+const greeting2 = createGreeting("Maria","Hello, what are you?");
+connsole.log(greeting2);
