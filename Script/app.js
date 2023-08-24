@@ -23,12 +23,17 @@
 //const greeting2 = createGreeting("Maria","Hello, what are you?");
 //connsole.log(greeting2);
 
+//export default () => { 
+    //console.log('Hello!');
+    //return userName + massage;
+//}
+
 const user = {
     name: "Michel",
-    age: 30
+    age: 30,
+    greet() {
+        console.log('Hello!');
+    }
 };
-
-export default () => { 
-    console.log('Hello!');
-    return userName + massage;
-}
+console.log(user.name);
+user.greet();
