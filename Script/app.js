@@ -33,7 +33,22 @@ const user = {
     age: 30,
     greet() {
         console.log('Hello!');
+        console.log(this.age);
     }
 };
 console.log(user.name);
 user.greet();
+
+class User {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    greet() {
+        console.log('Hello!');
+        console.log(this.age);
+    }
+}
+const user1 = new User("Michel", 30);
+console.log(user1.name);
+user1.greet();
