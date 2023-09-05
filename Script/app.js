@@ -53,15 +53,20 @@
 //console.log(user1.name);
 //user1.greet();
 
-const hobbies = ["Sports", "Cooking", "Reading", "Music"];
-console.log(hobbies[0]);
+//const hobbies = ["Sports", "Cooking", "Reading", "Music"];
+//console.log(hobbies[0]);
 
-hobbies.push("Programming", "Gaming");
-console.log(hobbies);
+//hobbies.push("Programming", "Gaming");
+//console.log(hobbies);
 
-hobbies.findIndex((item) =>  item === "Programming");
+//hobbies.findIndex((item) =>  item === "Programming");
 
-console.log(index);
+//console.log(index);
 
-const editedHobbies = hobbies.map((item) => ({text: item}));
-console.log(editedHobbies);
+//const editedHobbies = hobbies.map((item) => ({text: item}));
+//console.log(editedHobbies);
+
+const [firstName, lastName] = ["Walter", "White"];
+
+console.log(firstName);
+console.log(lastName);
