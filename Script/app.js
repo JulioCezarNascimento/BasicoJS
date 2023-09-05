@@ -71,10 +71,27 @@
 // console.log(firstName);
 // console.log(lastName);
 
-const {name: userName, age} = {
+// const {name: userName, age} = {
+//     name: "Michel",
+//     age: 30
+// }
+
+// console.log(userName);
+// console.log(age);
+
+const hobbies = ["Sports", "Cooking"];
+const user = {
     name: "Michel",
     age: 30
-}
+};
 
-console.log(userName);
-console.log(age);
+const newHobby = ["Studying"];
+
+const mergeHobbies = [...hobbies, ...newHobby];
+console.log(mergeHobbies);
+
+const extendedUser = {
+    isAdmin: true,
+    ...user
+};
+console.log(extendedUser);
