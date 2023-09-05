@@ -79,19 +79,30 @@
 // console.log(userName);
 // console.log(age);
 
-const hobbies = ["Sports", "Cooking"];
-const user = {
-    name: "Michel",
-    age: 30
-};
+// const hobbies = ["Sports", "Cooking"];
+// const user = {
+//     name: "Michel",
+//     age: 30
+// };
 
-const newHobby = ["Studying"];
+// const newHobby = ["Studying"];
 
-const mergeHobbies = [...hobbies, ...newHobby];
-console.log(mergeHobbies);
+// const mergeHobbies = [...hobbies, ...newHobby];
+// console.log(mergeHobbies);
 
-const extendedUser = {
-    isAdmin: true,
-    ...user
-};
-console.log(extendedUser);
+// const extendedUser = {
+//     isAdmin: true,
+//     ...user
+// };
+// console.log(extendedUser);
+
+const password = prompt("Your password");
+
+if (password === "Bebezi") {
+ console.log("Obesi");
+} else if (password === "Pandora") {
+  console.log("Filhota");
+
+} else {
+ console.log("Senha incorreta");
+}
