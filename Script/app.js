@@ -96,34 +96,45 @@
 // };
 // console.log(extendedUser);
 
-// const password = prompt("Your password");
+// // const password = prompt("Your password");
 
-// if (password === "Bebezi") {
-//  console.log("Obesi");
-// } else if (password === "Pandora") {
-//   console.log("Filhota");
+// // if (password === "Bebezi") {
+// //  console.log("Obesi");
+// // } else if (password === "Pandora") {
+// //   console.log("Filhota");
 
-// } else {
-//  console.log("Senha incorreta");
+// // } else {
+// //  console.log("Senha incorreta");
+// // }
+
+// // const list = document.querySelector("#list");
+// // list.remove();
+
+// function handleTimeout() {
+//     console.log("Time out!");
 // }
 
-// const list = document.querySelector("#list");
-// list.remove();
+// const handleTimeout2 = () => {
+//     console.log("Time out... again!");
+// }
 
-function handleTimeout() {
-    console.log("Time out!");
+// setTimeout(handleTimeout, 1000);
+// setTimeout(handleTimeout2, 2000);
+// setTimeout(() => {
+//     console.log("More timing out!");
+// }, 3000);
+
+// function greeter(greetFn){
+//     greetFn();
+
+
+function init() {
+    function greet(){
+        console.log("Hi!");
+    }
+    
+    greet();
 }
 
-const handleTimeout2 = () => {
-    console.log("Time out... again!");
-}
+init();
 
-setTimeout(handleTimeout, 1000);
-setTimeout(handleTimeout2, 2000);
-setTimeout(() => {
-    console.log("More timing out!");
-}, 3000);
-
-function greeter(greetFn){
-    greetFn();
-}
