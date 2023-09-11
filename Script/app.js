@@ -96,13 +96,16 @@
 // };
 // console.log(extendedUser);
 
-const password = prompt("Your password");
+// const password = prompt("Your password");
 
-if (password === "Bebezi") {
- console.log("Obesi");
-} else if (password === "Pandora") {
-  console.log("Filhota");
+// if (password === "Bebezi") {
+//  console.log("Obesi");
+// } else if (password === "Pandora") {
+//   console.log("Filhota");
 
-} else {
- console.log("Senha incorreta");
-}
+// } else {
+//  console.log("Senha incorreta");
+// }
+
+const list = document.querySelector("#list");
+list.remove();
