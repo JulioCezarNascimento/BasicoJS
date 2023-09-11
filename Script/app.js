@@ -107,5 +107,23 @@
 //  console.log("Senha incorreta");
 // }
 
-const list = document.querySelector("#list");
-list.remove();
+// const list = document.querySelector("#list");
+// list.remove();
+
+function handleTimeout() {
+    console.log("Time out!");
+}
+
+const handleTimeout2 = () => {
+    console.log("Time out... again!");
+}
+
+setTimeout(handleTimeout, 1000);
+setTimeout(handleTimeout2, 2000);
+setTimeout(() => {
+    console.log("More timing out!");
+}, 3000);
+
+function greeter(greetFn){
+    greetFn();
+}
