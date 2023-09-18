@@ -127,14 +127,17 @@
 // function greeter(greetFn){
 //     greetFn();
 
-
-function init() {
-    function greet(){
-        console.log("Hi!");
-    }
+// }
+// function init() {
+//     function greet(){
+//         console.log("Hi!");
+//     }
     
-    greet();
-}
+//     greet();
+// }
 
-init();
+// init();
 
+const hobbies =["Sports", "Cooking"]
+hobbies.push("Working");
+console.log(hobbies);
